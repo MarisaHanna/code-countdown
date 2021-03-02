@@ -1,0 +1,145 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+    background: linear-gradient(0deg, #392d81 0%, rgba(237,245,249,1) 63%);
+  
+}
+
+header{
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #392d81;
+    width: 100%; 
+    border-radius: 8px;
+}
+
+.display{
+    display: flex;
+    justify-content: space-evenly;
+    color: lavender;
+}
+
+.scores {
+    margin-right: 35px;
+    float: right;
+    background: radial-gradient(circle, rgba(240,230,140,1) 0%, rgba(187,96,33,0.9542191876750701) 100%);
+}
+.container {
+    
+    height: 450px;
+    width: 550px;
+    flex: 0 auto;
+    padding: 8px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: lavender;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px #392d81;
+    
+}
+
+.questions {
+
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.buttons {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+   
+} 
+
+.start {
+    background: radial-gradient(circle, rgba(240,230,140,1) 0%, rgba(187,96,33,0.9542191876750701) 100%);
+    border-radius: 8px;
+    color: #13293d;
+    cursor: pointer;
+    font-size: 1.2rem;
+    letter-spacing: 0.21px;
+    line-height: 12px;
+    max-width: 200px;
+    padding: 20px 52px;
+    text-align: center;
+    margin-top: 0.6em;
+    box-shadow: 5px 5px 5px 5px #392d81;
+}
+
+.scores {
+    background: radial-gradient(circle, rgba(240,230,140,1) 0%, rgba(187,96,33,0.9542191876750701) 100%);
+    border-radius: 8px;
+    color: #13293d;
+    cursor: pointer;
+    font-size: 1.2rem;
+    letter-spacing: 0.21px;
+    line-height: 12px;
+    max-width: 200px;
+    padding: 20px 42px;
+    text-align: center;
+    margin-top: 0.6em;
+    box-shadow: 5px 5px 5px 5px #392d81;
+}
+
+
+.start:hover{
+
+    color: rgb(99, 97, 97);
+}
+
+
+.scores:hover{
+
+    color: rgb(99, 97, 97);
+}
+
+button {
+    display: block;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.score-display {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+
+}
+
+.score-div {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+   
+    .display {
+        font-size: 12px;
+    }
+
+    .start, .scores{
+        font-size: 1rem;
+    }
+
+    .container{
+        height: 450px;
+        width: 450px;
+   
+    }
+
+    .questions{
+        font-size: 1rem;
+    }
+
+    .score-display{
+        font-size: 15px;
+    }
+}
