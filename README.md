@@ -9,9 +9,9 @@
 
 #  Images
 
-![Screen Shot 1](../images/Screen Shot1.png)
-![Screen Shot 2](../images/Screen Shot2.png)
-![screen Shot 3](../images/Screen Shot3.png)
+![Screen Shot 1](/images/Screen Shot1.png)
+![Screen Shot 2](/images/Screen Shot2.png)
+![screen Shot 3](/images/Screen Shot3.png)
 
 
 
