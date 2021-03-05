@@ -3,7 +3,7 @@
 
 #  Description
 
-    This is the product of my week for homework assignment. The task was to create a interactive game that challenged the user with questions about JavaScript content. The game will keep track of how many questions were answered correctly and incorrectly. If the user selects the incorrect answer, time is deducted from the timer. Once the game is over, the user can then click the "View Score" button to see their score. 
+    This is the product of my week four homework assignment. The task was to create a interactive game that challenged the user with questions about JavaScript content. The game will keep track of how many questions were answered correctly and incorrectly. If the user selects the incorrect answer, time is deducted from the timer. Once the game is over, the user can then click the "View Score" button to see their score. 
 
 
 
